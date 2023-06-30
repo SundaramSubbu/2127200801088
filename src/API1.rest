@@ -1,0 +1,9 @@
+POST http://104.211.219.98/train/register
+
+{
+   "companyName":"Train Central",
+   "ownerName":"Ram",
+   "rollNo":"100",
+   "ownerEmail":"ram@abc.edu",
+   "accessCode":"nNPGsi"
+}

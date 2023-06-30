@@ -1,0 +1,39 @@
+# POST http://104.211.219.98/train/register
+
+# {
+#    "companyName":"Train",
+#    "ownerName":"Sundaram",
+#    "rollNo":"2127200801088",
+#    "ownerEmail":"2020it0617@svce.ac.in",
+#    "accessCode":"nNPGsi"
+# }
+# HTTP/1.1 200 OK
+# Date: Fri, 30 Jun 2023 15:10:05 GMT
+# Content-Type: application/json
+# Content-Length: 193
+# Connection: close
+# X-Content-Type-Options: nosniff
+# X-XSS-Protection: 1;mode=block
+
+# {
+#   "companyName": "Train",
+#   "clientID": "06a3997b-cb05-486f-af3d-f778ccb28745",
+#   "clientSecret": "YxuvCIeoMjxivfYH",
+#   "ownerName": "Sundaram",
+#   "ownerEmail": "2020it0617@svce.ac.in",
+#   "rollNo": "2127200801088"
+# }
+POST http://104.211.219.98/train/auth
+
+{
+    "clientlD": "06a3997b-cb05-486f-af3d-f778ccb28745" ,
+//"message":"clientID, companyName, clientSecret, ownerName, ownerEmail,rollNo",
+"companyName": "Train" ,
+// "clientlD": "06a3997b-cb05-486f-af3d-f778ccb28745" ,
+"clientSecret":"YxuvCIeoMjxivfYH",
+"ownerName": "Sundaram",
+"ownerEmai1": "2020it0617@svce.ac.in",
+"rollNo": "2127200801088",
+//"clientSecret":"YxuvCIeoMjxivfYH",
+
+}
